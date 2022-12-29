@@ -38,4 +38,6 @@ git commit -m ""
 git commit -m "first commit"
 git status
 git remote add origin https://github.com/asm-redowan/git.git
-git push -u origin mai
+git push -u origin main
+
+git checkout Hridoy
