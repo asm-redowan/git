@@ -40,4 +40,14 @@ git status
 git remote add origin https://github.com/asm-redowan/git.git
 git push -u origin main
 
+#### Branch ###
+git branch
+git branch Redowan
+git checkout Redowan
+git branch
 git checkout Hridoy
+
+#################
+
+####################
+#####################
