@@ -1,0 +1,36 @@
+/*/
+ mkdir gitDemo
+ ls
+ cd gitDemo/
+ git init
+ touch first.txt
+ git commit -m ""
+ git status
+ git config --global user.name ""
+ git config --global user.email ""
+ /*/
+ if some change
+ git status
+ git log
+ git log --oneline
+ git add .
+ git commit -m ""
+ 
+ git log --oneline
+	e3588f8 (HEAD -> master) 2nd file create
+	52161ba 2nd add git cmd
+	a9eb264 first add git cmd
+	bf1e995 lfjs
+	
+ git show 52161ba
+ 
+ git diff
+ git diff --staged
+ 
+ git rm file-name
+ git reset HEAD file-name
+	Unstaged changes after reset:
+	D       second.txt
+	
+git add .
+git commit -m ""
